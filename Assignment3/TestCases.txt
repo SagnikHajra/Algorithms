@@ -1,0 +1,124 @@
+[sxh1338@omega Assignment3]$ ./a.out
+Input strings:
+abcdefghijklmnopqkstukwfyzabcdefghijklmnoporstuvwjyzabcdsfghijklmnopqrstuwwxyzabcdemgaixklmnspqpstuvwxyzaccdefghijklmnopqrotbvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvvxyzabcdefghijklfnapqrstuvwsyzabcdefxhijrlmnypqjstuvwxyzabcdefghijklmnqpqrstuvwxozobcdefghijklmnopqrstuvwxyzabcdefghirklmnorqrstuvwxyzabcdcfghijvlmnopqrstuvwxyzajcdefghijklmnopqrstuvwxyzabcdefghizklmnopqrstuvwgyjabbdefghijkwmnopqrstuvwxyzebcdefghiuklmnopqratuvwxyzhbedexghijklmnopqrstuvwxyzabcdexghijklmnopqrxtuvlfyzabcdef
+ghijklmcopvrstuqwxyzabcdefghiqklmnopvrstuvwxyzabcdefghijklmnopqrstuhwxyzabcdefnhijklmnopqrstuvwpyzabcdefghijkemnopqrstuqwxmzabndefrhijkpmnolmrwtkumxyzabcdefghijklmnolqrstuvwxyzabcdefghijklmnoxqrstvvsxyzabcdefghjjulmnopjrstuvwbyzabcdefghijklmnopqrstuvwxyzabcdefghijkltnopqrstuvwxyzafcdlbghiikpynopqrsmuvwxyzabcdefghijklqnopqrutuvwxyzaxcdefghijklwaopqrstsvwxyznbcjefghijklmgopqrstuvwxyzabcdefghidklmnopqgsmuvwxyzabcdefgvijkltnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijkl
+mnopqrstncwxyzabcdefghijklmnopqrstuvwxyzabtdefghijclmnoparstuvnxyzabcdefgwijklmnopqostuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijkgmnopqrstuvzxyzabcdeaghijklmnopqrstuvwxyzabkdefghijblmnopqbstuvhxyzaasdefnhioklmnjpqrstlvwwyzabcdeflhijklmnopqrstuvwxyzabcdefghijkumnopqrstuvxxyzabcdefghijklmnopqrstuvwxyzabcdpfgeijklmnopqrstumwxyzqbvdefghijklmnopqrstuvlxyzakcdefghijkwvuoeqrctuvwxywabcdefghijklmnopqrstuvwxyzfbcdefghijklmgopqrscuvwxyzarcdefghijklmwopqrstuvwxyzabcdefghijklmnopqrstuvwxyzbbcdhfghijklmnrpqr
+Output:
+n is 1503
+Length 5, x at 6, y ends at 7, z at 8
+abcde
+Length 6, x at 7, y ends at 9, z at 10
+abcdef
+Length 11, x at 10, y ends at 11, z at 12
+abcdefghijk
+Length 21, x at 16, y ends at 17, z at 18
+abcdefghijklmnopqrstu
+Length 22, x at 17, y ends at 18, z at 19
+abcdefghijklmnopqrstuv
+Length 37, x at 18, y ends at 19, z at 20
+abcdefghijklmnopqrstuvwxyzabcdefghijk
+Length 42, x at 1245, y ends at 1246, z at 1247
+vwxyzabcdefghijklmnopqrstuvwxyzabcdefghijk
+
+
+
+[sxh1338@omega Assignment3]$ ./a.out
+Input strings:
+abcdefghabcdefghaccdecgbabcdefghabcdefghabadefghahcdefghcbcdefghabcdefghaccdefghabccecgbabcdcfgfabcdefghaacdefghabcdefghabeddfghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabbdefghabcdefghabdfefghabcdegghabcdefdhabbdefchahcdefghabcdefghabcdefghcbcdefghabgdefghabcdefghabcdefghabcdefghabcdefgbabcdehghabcdefghabcdefghabfdefghabcdefghabcbefghabcdefghabcdefghabcdefghabcdefghabcdefghabcgefghbbcdefghaccdefghabcdefghabcdefghaecdedghabadefghabfdefgdabcdefghabcdefghabcdefghahcdefghabcdeffhabbhefghabcd
+efghabccefdhabcgefghabcdefghagcdefghdbcdefghabcdefghabcdefghabcdefgfabcdefghabhdefghabcdefghabcdefghabcdefghaacdefghabcaefahabddeffhabchefgdcbcdaaehabcdefghabcdefghahcdefghabcdefghabcdefghabcdefghfbcdefghabcdeffhebcdefbhabcdebghabcdefghabcdefghabcdefghabcdefghabcdefhhabcdefghabcdebghbfcdeggbgbcdefgcabcdefghabcdefghabadefghebcdefghafcdefghabcdgcghabcdafghabfdefghabcdefgcabcdefghabcdefghabcdefghabcdegggabcdefghabcdehghabhdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefgh
+abcdefghfacdefghabcdehghabcdefghabcdefghabhdefghabedefghgbcdefdhabcdefghaacdefghabcaefghabcdefghabcdefghabcdefghabcdefghabcdefghaecdefghabcdbfghabcdeeghabcdefghabcdefghabcdcfghabcdbfghabchebghbbcdecchabbdecghabfdefghdbcgefghabcdbfghabcdefghafcdefghabcdefgfabcaefghabcdefdhabcdefghabcdefghabcdefghabcdefghhbcgefghabcdefghaecdefahbbcdefghabcdefghabcddfghaecdefghabcebagaabgdefghaecdefghabcdefghabcdefghabcdffghabcdefghaccdefgcabcdefgdabcdefghabcgefghabcdefghabcdefghabcdefghabcdefghabfdefdhabcdefghdbcd
+Output:
+n is 1503
+Length 11, x at 4, y ends at 5, z at 6
+aacdefghabc
+Length 19, x at 42, y ends at 43, z at 44
+abcdefghaacdefghabc
+Length 20, x at 59, y ends at 60, z at 61
+abcdefghabcdefghabcd
+Length 41, x at 74, y ends at 75, z at 76
+abcdefghabcdefghabcdefghabcdefghabcdefgha
+Length 45, x at 846, y ends at 847, z at 848
+efghabcdefghabcdefghabcdefghabcdefghabcdefgha
+
+
+
+[sxh1338@omega Assignment3]$ ./a.out
+Input strings:
+0100101001010010010100101001001010010010100101001001010010100100101001001010010100100101001001010010100100101001010010010100100101001010010010100101001001010010010100101001001010010010100101001001010010100100101001001010010100100101001001010010100100101001010010010100100101001010010010100101001001010010010100101001001010010010100101001001010010100100101001001010010100100101001010
+0100101001001010010010100101001001010010010100101001001010010100100101001001010010100100101001001010010100100101001010010010100100101001010010010100101001001010010010100101001001010010010100101001001010010100100101001001010010100100101001001
+0100101001001010010100100101001010010010100100101001010010010100101001001010010010100101001001010010010100101001001010010100100101001001010010100100101001010
+Output:
+n is 783
+Length 1, x at 3, y ends at 4, z at 5
+0
+Length 88, x at 10, y ends at 11, z at 12
+0010010100100101001010010010100100101001010010010100101001001010010010100101001001010010
+Length 90, x at 12, y ends at 13, z at 14
+001001010010010100101001001010010010100101001001010010100100101001001010010100100101001010
+Length 122, x at 20, y ends at 21, z at 22
+00100101001001010010100100101001010010010100100101001010010010100100101001010010010100101001001010010010100101001001010010
+Length 124, x at 22, y ends at 23, z at 24
+0010010100100101001010010010100101001001010010010100101001001010010010100101001001010010100100101001001010010100100101001010
+Length 135, x at 46, y ends at 47, z at 48
+001001010010100100101001001010010100100101001010010010100100101001010010010100100101001010010010100101001001010010010100101001001010010
+Length 137, x at 48, y ends at 49, z at 50
+00100101001010010010100100101001010010010100101001001010010010100101001001010010010100101001001010010100100101001001010010100100101001010
+Length 148, x at 70, y ends at 71, z at 72
+0010010100101001001010010100100101001001010010100100101001010010010100100101001010010010100100101001010010010100101001001010010010100101001001010010
+Length 153, x at 140, y ends at 141, z at 142
+001010010010100101001001010010100100101001001010010100100101001010010010100100101001010010010100100101001010010010100101001001010010010100101001001010010
+Length 155, x at 325, y ends at 326, z at 327
+01001010010010100101001001010010100100101001001010010100100101001010010010100100101001010010010100100101001010010010100101001001010010010100101001001010010
+
+
+
+[sxh1338@omega Assignment3]$ ./a.out
+Input strings:
+eabcdfabcdgabcdhabcdiabcdjabcdkabcdlabcdmabcdnabcdoabcdpabcdqabcdrabcdsabcdtabcduabcdvabcdwabcdxabcdyabcdzabcdAabcdBabcdCabcdD
+EabcdFabcdGabcdHabcdIabcdJabcdKabcdLabcdMabcdNabcdOabcdPabcdQabcdRabcdSabcdTabcdUabcdVabcdWabcdXabcdYabcdZabcd0abcd1abcd2abcd3abcd4
+abcd5abcd6abcd7abcd8abcd90abcd1abcd2abcd3abcd4abcd5abcd6abcd7abcd8abcd9abcdEabcdFabcdGabcdHabcdIabcdJabcdeabcdfabcdgabcdhabcdiabcdjabcdkabcdlabcdmabcdnabcdoabcdpabcdqabcdrabcds
+Output:
+n is 436
+Length 4, x at 62, y ends at 73, z at 74
+abcd
+Length 4, x at 77, y ends at 78, z at 79
+abcd
+Length 4, x at 104, y ends at 106, z at 107
+abcd
+
+
+
+[sxh1338@omega Assignment3]$ ./a.out
+Input strings:
+abacabacabacabababacaaaacabcdefghiiiabababacabacabacaaaababacabacabacabac
+abcdefghijjlaaaadabcdefghijjmabababcdefghijjnabcdefghijjoaaaaeabcdefghijjpabcdefghijjqabababcdefghijjabcdefghijjrabcdefghijjs
+abcdefghijktaaaafabcdefghijkuabababcdefghijkvabcdefghijkabcdefghijkwaaaagabababcdefghijkxabcdefghijkyabcdefghijkz
+n is 314
+Length 4, x at 4, y ends at 6, z at 7
+aaaa
+Length 6, x at 22, y ends at 24, z at 25
+ababab
+Length 9, x at 45, y ends at 54, z at 55
+abcdefghi
+
+
+
+[sxh1338@omega Assignment3]$ ./a.out
+Input strings:
+bbbbba
+bbbbbac
+bbbbbacd
+Output:
+n is 24
+Length 1, x at 3, y ends at 4, z at 5
+a
+Length 2, x at 6, y ends at 7, z at 8
+ba
+Length 3, x at 9, y ends at 10, z at 11
+bba
+Length 4, x at 12, y ends at 13, z at 14
+bbba
+Length 5, x at 15, y ends at 16, z at 17
+bbbba
+Length 6, x at 18, y ends at 19, z at 20
+bbbbba
